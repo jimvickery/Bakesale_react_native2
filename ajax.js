@@ -23,8 +23,7 @@ export default {
       console.error(error);
     }
   },
-
-  async fetchlDealSearchResults(searchTerm) {
+  async fetchDealsSearchResults(searchTerm) {
     try {
       const response = await fetch(apiHost + '/api/deals?searchTerm=' + searchTerm);
       // const response = await fetch(apiHost);

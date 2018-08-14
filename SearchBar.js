@@ -11,10 +11,10 @@ class SearchBar extends React.Component{
   state={ 
     searchTerm: '',
   };
-  debounceSearchDeals = debounce(this.props.searchDeals, 300);
+  debouncedSearchDeals = debounce(this.props.searchDeals, 300);
   handleChange = (searchTerm) => {
     this.setState({ searchTerm }, () => {
-      this.debounceSearchDeals(this.state.searchTerm);
+      this.debouncedSearchDeals(this.state.searchTerm);
     });
   };
   render() {
