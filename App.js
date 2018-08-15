@@ -9,7 +9,7 @@ import SearchBar from './SearchBar';
 export default class App extends React.Component {
   state = {
     deals: [],
-    dealsFormSearch: [],
+    dealsFrommSearch: [],
     currentDealId: null, 
   };
   async componentDidMount(){
@@ -17,11 +17,11 @@ export default class App extends React.Component {
     this.setState( { deals });
   }
   searchDeals = async (searchTerm) => {
-    let dealsFormSearch =[];
+    let dealsFromSearch =[];
     if (searchTerm) {
-      dealsFormSearch = await ajax.fetchDealsSearchResults(searchTerm);
+      dealsFromSearch = await ajax.fetchDealsSearchResults(searchTerm);
     }
-    this.setState({dealsFormSearch});
+    this.setState({dealsFromSearch});
   };
  
   setCurrentDeal = (dealId) => {

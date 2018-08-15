@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextInput, StyleSheet } from 'react-native';
-import debounce from 'lodash/debounce';
+import debounce from 'lodash.debounce';
 import PropTypes from 'prop-types';
 
 
