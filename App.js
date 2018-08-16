@@ -9,7 +9,7 @@ import SearchBar from './SearchBar';
 export default class App extends React.Component {
   state = {
     deals: [],
-    dealsFrommSearch: [],
+    dealsFromSearch: [],
     currentDealId: null, 
   };
   async componentDidMount(){
@@ -17,7 +17,7 @@ export default class App extends React.Component {
     this.setState( { deals });
   }
   searchDeals = async (searchTerm) => {
-    let dealsFromSearch =[];
+    let dealsFromSearch = [];
     if (searchTerm) {
       dealsFromSearch = await ajax.fetchDealsSearchResults(searchTerm);
     }
@@ -51,8 +51,8 @@ export default class App extends React.Component {
       );
     }
     const dealsToDisplay = 
-    this.state.dealsFrommSearch.length > 0 
-    ? this.state.dealsFrommSearch
+    this.state.dealsFromSearch.length > 0 
+    ? this.state.dealsFromSearch
     : this.state.deals;
 
     if (dealsToDisplay.length > 0) {
