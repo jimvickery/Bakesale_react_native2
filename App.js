@@ -50,7 +50,12 @@ export default class App extends React.Component {
       </View>
       );
     }
-    if (this.state.deals.length > 0) {
+    const dealsToDisplay = 
+    this.state.dealsFrommSearch.length > 0 
+    ? this.state.dealsFrommSearch
+    : this.state.deals;
+
+    if (dealsToDisplay.length > 0) {
       return (
       <View style={styles.main}>
         <SearchBar searchDeals={this.searchDeals} />
