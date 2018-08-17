@@ -17,6 +17,7 @@ class DealItem extends React.Component{
     return (
       <TouchableOpacity style={styles.deal} onPress={this.handlePress} >
         <Image source={{ uri: this.props.deal.media[0]}}  style={styles.image} />
+        
         <View style={styles.info}>
           <Text style={styles.title}>{deal.title} </Text>
           <View style={styles.footer}>
