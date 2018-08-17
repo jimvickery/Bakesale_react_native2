@@ -30,6 +30,7 @@ class DealItem extends React.Component{
   }
 }
 
+// creates the stylesheet
 const styles = StyleSheet.create({
   deal: {
     marginHorizontal: 12,
