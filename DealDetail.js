@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ajax from './ajax';
-import { StyleSheet, Text, Image, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, Image, View, TouchableOpacity, ActivityIndicator } from 'react-native';
 import {priceDisplay} from './util';
 
 class DealDetail extends React.Component{
