@@ -1,12 +1,12 @@
 // const apiHost = 'https://bakesaleforgood.com';
-const apiHost = 'http://www.sillysnap.com//api/v1/galleryapis';
+const apiHost = 'http://www.sillysnap.com';
 
 
 export default {
   async fetchInitialDeals() {
     try {
       // const response = await fetch(apiHost + '/api/deals');
-      const response = await fetch(apiHost);
+      const response = await fetch(apiHost + '/api/v1/galleryapis?api_token=of4HNsRnesbbESdLHtgV');
       const responseJson = await response.json();
       return responseJson;
     } catch (error) {

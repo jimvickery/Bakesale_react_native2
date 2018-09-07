@@ -26,7 +26,7 @@ class DealDetail extends React.Component{
       <TouchableOpacity onPress={this.props.onBack}>
         <Text style={styles.backLink}>Back</Text>
       </TouchableOpacity>
-        <Image source={{ uri: deal.picture[0][0] }}  style={styles.image} />
+        <Image source={{ uri: deal.pictureuploaders }}  style={styles.image} />
         <View style={styles.info}>
           <Text style={styles.title}>{deal.title} </Text>
           <View style={styles.footer}>
