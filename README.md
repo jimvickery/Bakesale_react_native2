@@ -202,3 +202,4 @@ If this causes problems for you, you may want to try changing your terminal's co
 
 
 TODO: Get SillySnap images to render from API. Still a WIP
+1. Get the connection to the Sillysnap API
