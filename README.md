@@ -3,11 +3,11 @@
 This is a ReactNavtive App connected to an API to retrieve Images and text.
 
 ### Main page with all images.
-![Alt text](homepage.png?raw=true "Title")
+![Alt text](homepage.png?raw=true "Title" | width=100)
 <br><br>
 
 ### Show page of a gallery posting with the Most Viral Images in Right Column.
-![Alt text](detailspage.png?raw=true "Title")
+![Alt text](detailspage.png?raw=true "Title" | width=100)
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
