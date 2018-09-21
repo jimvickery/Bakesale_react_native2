@@ -4,6 +4,7 @@ This is a ReactNavtive App connected to an API to retrieve Images and text.
 
 ### Main page with all images.
 ![Alt text](homepage.png?raw=true "Title")
+<br>
 ### Show page of a gallery posting with the Most Viral Images in Right Column.
 ![Alt text](detailspage.png?raw=true "Title")
 
