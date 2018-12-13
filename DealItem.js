@@ -22,8 +22,8 @@ class DealItem extends React.Component{
         <View style={styles.info}>
           <Text style={styles.title}>{deal.title} </Text>
           <View style={styles.footer}>
-            {/* <Text style={styles.cause}>{deal.cause.name}</Text>
-            <Text style={styles.price}>{priceDisplay(deal.price)}</Text> */}
+            <Text style={styles.cause}>{deal.details}</Text> 
+            {/* <Text style={styles.price}>{priceDisplay(deal.price)}</Text> */} */}
           </View>
         </View>
       </TouchableOpacity>
