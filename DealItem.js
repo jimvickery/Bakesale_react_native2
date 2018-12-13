@@ -16,9 +16,9 @@ class DealItem extends React.Component{
     const { deal } = this.props;
     return (
       <TouchableOpacity style={styles.deal} onPress={this.handlePress} >
-        <Image source={{ uri: this.props.deal.pictureuploader}}  style={styles.image} 
-        keyExtractor={(item, index) => index.toString()}
-        />
+        <Image source={{ uri: this.props.deal.pictureuploader}}  style={styles.image} />
+
+
         <View style={styles.info}>
           <Text style={styles.title}>{deal.title} </Text>
           <View style={styles.footer}>
