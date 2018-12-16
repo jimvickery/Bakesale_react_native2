@@ -3,8 +3,10 @@
 This is a ReactNavtive App connected to an API to retrieve Images and text.
 
 ### Main page with all images and show page of Gallery
-![Alt text](homepage.png?raw=true "Title") ![Alt text](detailspage.png?raw=true "Title")
+![alt-text-1](homepage.png "title-1") ![alt-text-2](detailspage.png "title-2")
+
 <br><br>
+
 
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
