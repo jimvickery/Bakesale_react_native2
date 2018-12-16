@@ -3,7 +3,7 @@
 This is a ReactNavtive App connected to an API to retrieve Images and text.
 
 ### Main page with all images and show page of Gallery
-![alt-text-1](homepage.png  "title-1") {:height="50%" width="50%"} ![alt-text-2](detailspage.png "title-2") {:height="50%" width="50%"}
+![alt-text-1](homepage.png  {:height="50%" width="50%"}) ![alt-text-2](detailspage.png {:height="50%" width="50%"})
 
 <br><br>
 
