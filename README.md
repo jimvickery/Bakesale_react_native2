@@ -220,3 +220,8 @@ Tutorial used to develop this App: https://www.linkedin.com/learning/react-nativ
 
 To Start Project in terminal:
 1. npm start
+
+
+To Debug: 
+
+1. debugger; //breaks execution
