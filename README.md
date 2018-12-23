@@ -217,3 +217,6 @@ TODO: Get SillySnap images to render from API. Still a WIP
 
 
 Tutorial used to develop this App: https://www.linkedin.com/learning/react-native-essential-training/using-flatlist-with-api-data
+
+To Start Project in terminal:
+1. npm start
