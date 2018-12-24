@@ -1,3 +1,14 @@
+# React Navtive App with API]
+
+This is a ReactNavtive App connected to an API to retrieve Images and text.
+
+### Main page with all images and show page of Gallery
+![alt-text-1](homepage.png "title-1") ![alt-text-2](detailspage.png "title-2")
+
+<br><br>
+
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
@@ -203,4 +214,20 @@ If this causes problems for you, you may want to try changing your terminal's co
 
 
 
+
 Version of this app: sillysnap_version is added to master on Dec 24, 2018. working_bakesale is the branch that has images of bake sale.
+
+TODO: Get SillySnap images to render from API. Still a WIP
+1. Get the connection to the Sillysnap API
+
+
+Tutorial used to develop this App: https://www.linkedin.com/learning/react-native-essential-training/using-flatlist-with-api-data
+
+To Start Project in terminal:
+1. npm start
+
+
+To Debug: 
+
+1. debugger; //breaks execution
+
