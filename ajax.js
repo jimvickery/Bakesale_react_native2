@@ -1,5 +1,5 @@
 // const apiHost = 'https://bakesaleforgood.com';
-const apiHost = 'http://www.sillysnap.com/api/v1/galleryapis';
+const apiHost = 'https://www.sillysnap.com/api/v1/galleryapis';
 
 
 export default {
