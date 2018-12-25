@@ -11,7 +11,7 @@ class DealList extends React.Component {
 
   _returnKey(item) {
     return item.toString();
-  }
+  };
 
   render(){
     return(
