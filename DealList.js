@@ -8,14 +8,18 @@ class DealList extends React.Component {
     deals: PropTypes.array.isRequired,
     onItemPress: PropTypes.func.isRequired,
   };
+
+  _returnKey(item) {
+    return item.toString();
+  }
+
   render(){
     return(
       <View style={styles.list}>
       <FlatList
         data={this.props.deals}
-        renderItem={({item}) => <DealItem 
-        id={item.id}
-        deal={item} onPress={this.props.onItemPress} />}
+        keyExtractor={this._returnKey}
+        renderItem={({item}) => <DealItem deal={item} onPress={this.props.onItemPress} />}
       />
       </View>
     );
