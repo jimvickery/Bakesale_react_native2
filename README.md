@@ -219,7 +219,7 @@ Version of this app: sillysnap_version is added to master on Dec 24, 2018. worki
 
 TODO: Get SillySnap images to render from API. Still a WIP
 1. Get the connection to the Sillysnap API
-2. Setup authentication using connection string to connect to DB and use username and password.
+2. Setup authentication using connection string to connect to DB and use username and password. Will be using this tutorial: https://www.youtube.com/watch?v=ZpiF5IhavaY&index=1&list=PLkdLxQVsHYXxteWDEgOODl_UcRaa4x6t6
 
 
 Tutorial used to develop this App: https://www.linkedin.com/learning/react-native-essential-training/using-flatlist-with-api-data
