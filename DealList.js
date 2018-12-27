@@ -18,7 +18,7 @@ class DealList extends React.Component {
       <View style={styles.list}>
       <FlatList
         data={this.props.deals}
-        keyExtractor={this._returnKey}
+        // keyExtractor={this._returnKey}
         renderItem={({item}) => <DealItem deal={item} onPress={this.props.onItemPress} />}
       />
       </View>
