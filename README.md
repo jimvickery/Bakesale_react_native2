@@ -232,5 +232,5 @@ To Debug:
 
 1. debugger; //breaks execution
 
-TODO: Will be adding SillySnap Features using tutorial from code4startups.com
+TODO: Will be adding SillySnap Features using tutorial from code4startup.com
 
