@@ -8,6 +8,7 @@ export default {
       // const response = await fetch(apiHost + '/api/deals');
       const response = await fetch(apiHost );
       const responseJson = await response.json();
+      console.log (responseJson);
       return responseJson;
     } catch (error) {
       console.error(error);
