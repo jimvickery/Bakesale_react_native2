@@ -18,8 +18,8 @@ class DealList extends React.Component {
       <View style={styles.list}>
       <FlatList
         data={this.props.deals}
-        renderItem={({item}) => <DealItem deal={item} onPress={this.props.onItemPress} />}
         keyExtractor={(item, index) => index.toString()}
+        renderItem={({item}) => <DealItem deal={item} onPress={this.props.onItemPress} />}
 
       />
       </View>
