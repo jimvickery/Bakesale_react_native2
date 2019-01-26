@@ -235,3 +235,6 @@ To Debug:
 TODO: Will be adding SillySnap Features using tutorial from code4startup.com
 Using the tutorial from code4startup.com
 
+
+Images for Sillysnap works when using the absolute URL for the image from AWS
+
