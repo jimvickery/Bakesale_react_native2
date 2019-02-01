@@ -20,10 +20,7 @@ class DealList extends React.Component {
         data={this.props.deals}
        
         renderItem={({item}) => <DealItem deal={item} onPress={this.props.onItemPress} />}
-        keyExtractor={
-          (index) => {return index}
-         }
-
+        keyExtractor={(item, index) => item.id}
       />
       </View>
     );
